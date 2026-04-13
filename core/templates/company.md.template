@@ -1,0 +1,25 @@
+# 公司資料
+
+## 公司簡介
+
+- 公司名：{{COMPANY_NAME}}
+- 業態：{{BUSINESS_TYPE}}
+- 規模：{{SCALE}}
+- 商業模式：{{BUSINESS_MODEL}}
+
+## 品牌/服務定位
+
+{{POSITIONING}}
+
+## 品牌語氣（如適用）
+
+{{BRAND_VOICE}}
+
+## {{ROLE_SPECIFIC_SECTION_TITLE}}
+
+{{ROLE_SPECIFIC_CONTENT}}
+
+## 歷史經驗
+
+{{LESSONS_LEARNED}}
+（踩過的坑，至少 3-5 條）

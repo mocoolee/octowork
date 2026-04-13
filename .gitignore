@@ -1,0 +1,15 @@
+# 使用者的工作區 — 永不追蹤、永不覆蓋
+workspace/
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# 編輯器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node（如果未來加 Web 版）
+node_modules/
