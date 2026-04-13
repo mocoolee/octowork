@@ -34,7 +34,9 @@ octowork/                          ← git 管理的專案（可升級）
 │   └── team-deployment.md
 │
 ├── workspace/                     ← ⚠️ 使用者的工作區（git ignored，永不覆蓋）
-│   └── (使用者生成的 OctoWork 放這裡)
+│   ├── CLAUDE.md, company.md, products.md（直接放這裡，不建子資料夾）
+│   ├── .agents/skills/（Skills）
+│   └── workflows/（Workflows）
 │
 └── .gitignore                     ← workspace/ 被忽略
 ```
@@ -47,7 +49,7 @@ octowork/                          ← git 管理的專案（可升級）
 - 使用者不應該修改這裡的檔案
 
 ### ⚠️ 使用者區（workspace/）
-- 使用者生成的 OctoWork 放在這裡
+- 使用者的檔案直接放在 workspace/ 根目錄，不建子資料夾
 - 被 .gitignore 忽略
 - `git pull` 永遠不會碰到這裡的檔案
 - 這是使用者的資料，只屬於他們

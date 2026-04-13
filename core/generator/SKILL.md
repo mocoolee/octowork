@@ -52,7 +52,7 @@ Phase 7：驗收與調整
 **使用者可能隨時關掉 Claude Code，所以每一輪訪談結束、使用者確認後，就要立刻把目前收集到的資訊存到檔案裡。** 不要等全部問完才存。
 
 具體做法：
-- 第一輪問完確認後 → 先在 `workspace/[名稱]/` 建立資料夾，把角色和公司資訊存進 CLAUDE.md 和 company.md（即使還不完整）
+- 第一輪問完確認後 → 把角色和公司資訊存進 `workspace/CLAUDE.md` 和 `workspace/company.md`（即使還不完整）
 - 第二輪問完確認後 → 把做事原則和協作者更新到 CLAUDE.md
 - 第三輪問完確認後 → 把重複工作清單暫存到 CLAUDE.md 的備註區（之後會變成 Skills）
 - 第四輪問完確認後 → 把流程資訊暫存
@@ -380,10 +380,10 @@ maturity: draft
 
 ## 檔案結構規範
 
-所有生成的檔案必須符合這個結構：
+所有生成的檔案直接放在 `workspace/` 裡，不要再建子資料夾：
 
 ```
-[project-name]/
+workspace/
 ├── CLAUDE.md
 ├── company.md
 ├── products.md（如果需要）
@@ -398,7 +398,7 @@ maturity: draft
 
 Skill 放在 `.agents/skills/` 讓 Claude Code 和 Gemini CLI 都能自動掃描。
 
-**重要：** 所有 Skill 必須存在使用者的 OctoWork 資料夾（workspace/xxx/）裡的 `.agents/skills/`，不可以存到 Claude Code 的全域路徑（如 `~/.claude/.agents/skills/`）。每個人的 Skill 只屬於他自己的系統。
+**重要：** 所有 Skill 必須存在 `workspace/.agents/skills/`，不可以存到 Claude Code 的全域路徑（如 `~/.claude/.agents/skills/`）。每個人的 Skill 只屬於他自己的系統。
 
 ---
 

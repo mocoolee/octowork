@@ -11,7 +11,7 @@
 
 ### 檔案結構
 ```
-OctoWork/
+workspace/
 ├── CLAUDE.md（142 行）
 ├── company.md（168 行）── 門市資料、營運標準、稽核項目、客訴權限
 ├── products.md（203 行）── 商品品類、主力品賣點與話術、庫存規範
@@ -47,7 +47,7 @@ OctoWork/
 
 ### 檔案結構
 ```
-OctoWork/
+workspace/
 ├── CLAUDE.md（120 行）
 ├── company.md（150 行）── 品牌語氣、客群 Persona、管道佈局
 ├── products.md（180 行）── 各產品賣點、異議處理、歷史最佳素材

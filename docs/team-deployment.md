@@ -34,7 +34,7 @@
    └── customer-service/ ← 客服角色包
    ```
 2. 每個角色包含預設的 Skills 和 Workflows
-3. 新人入職：`cp -r workspace/roles/store-manager workspace/小美的系統`
+3. 新人入職：把角色包複製到新人自己的 OctoWork 專案的 `workspace/` 裡
 4. 小美修改 CLAUDE.md 填入自己的資料，開始使用
 
 ## Skill 的進化管理
