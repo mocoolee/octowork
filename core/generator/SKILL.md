@@ -328,6 +328,8 @@ maturity: draft
 
 Skill 放在 `.agents/skills/` 讓 Claude Code 和 Gemini CLI 都能自動掃描。
 
+**重要：** 所有 Skill 必須存在使用者的 OctoWork 資料夾（workspace/xxx/）裡的 `.agents/skills/`，不可以存到 Claude Code 的全域路徑（如 `~/.claude/.agents/skills/`）。每個人的 Skill 只屬於他自己的系統。
+
 ---
 
 ## 語氣與溝通

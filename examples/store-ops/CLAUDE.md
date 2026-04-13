@@ -119,3 +119,4 @@
 3. 我說「啟動 XX 流程」→ 讀 workflows/ 對應的 .md 來跑
 4. 所有產出存到 outputs/YYYY-MM/
 5. 做完後提醒我：有沒有新經驗值得加到「做事原則」
+6. 新增或修改 Skill 時，一律存到本資料夾的 .agents/skills/ 裡，不要存到全域路徑（如 ~/.claude/）
