@@ -42,16 +42,16 @@ git pull origin main
 
 ### Step 4：要不要更新已有的系統？
 
-升級框架之後，你已經生成的 work-os 不會自動更新。如果你想要：
+升級框架之後，你已經生成的 OctoWork 不會自動更新。如果你想要：
 
 **用新版生成器重新生成**（會覆蓋）：
 ```bash
 # 先備份
-cp -r workspace/my-work-os workspace/my-work-os-backup
+cp -r workspace/my-OctoWork workspace/my-OctoWork-backup
 
 # 重新生成
 claude
-> 幫我重新建一套 work-os
+> 幫我重新建一套 OctoWork
 ```
 
 **手動挑選要更新的部分**：

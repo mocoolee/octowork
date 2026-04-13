@@ -4,7 +4,7 @@
 
 ### 模式 A：各自獨立（最簡單）
 
-每個人各自 clone OctoWork，在自己的 `workspace/` 裡建自己的 work-os。互不影響。
+每個人各自 clone OctoWork，在自己的 `workspace/` 裡建自己的 OctoWork。互不影響。
 
 適合：5 人以下的小團隊，每個人的工作差異大。
 
@@ -16,7 +16,7 @@
 
 做法：
 1. 主管在 `workspace/company-shared/` 建好 company.md 和 products.md
-2. 每個成員複製這兩個檔案到自己的 work-os
+2. 每個成員複製這兩個檔案到自己的 OctoWork
 3. 各自建自己的 CLAUDE.md
 
 ### 模式 C：角色包制度

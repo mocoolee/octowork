@@ -25,7 +25,7 @@ claude
 Claude 會讀取 CLAUDE.md，知道這是 OctoWork 專案。直接說：
 
 ```
-幫我建一套 work-os
+幫我建一套 OctoWork
 ```
 
 ### 用 Gemini CLI
@@ -39,7 +39,7 @@ gemini
 ## 接下來會發生什麼
 
 1. AI 會用聊天的方式問你 4 輪問題（約 10 分鐘）
-2. 自動在 `workspace/` 裡生成你的完整 work-os
+2. 自動在 `workspace/` 裡生成你的完整 OctoWork
 3. 你可以立刻開始使用
 
 ## 不想被訪談？
@@ -47,8 +47,8 @@ gemini
 直接複製範例來改：
 
 ```bash
-cp -r examples/store-ops workspace/my-work-os
-cd workspace/my-work-os
+cp -r examples/store-ops workspace/my-OctoWork
+cd workspace/my-OctoWork
 claude
 ```
 

@@ -8,7 +8,7 @@
 ### 首次發布
 
 #### 新增
-- 生成器 Skill（`core/generator/`）：透過訪談自動生成完整 work-os
+- 生成器 Skill（`core/generator/`）：透過訪談自動生成完整 OctoWork
 - 門市營運專員範例（`examples/store-ops/`）：3 背景檔 + 9 Skills + 4 Workflows
 - 電商行銷人員範例（`examples/marketing/`）：3 背景檔 + 7 Skills + 3 Workflows
 - 模板檔案（`core/templates/`）：CLAUDE.md、company.md、products.md 的生成模板

@@ -4,8 +4,8 @@
 
 ## 你能做什麼
 
-### 建一套新的 work-os
-使用者說「幫我建一套 work-os」「幫 XX 角色建系統」「開始」時：
+### 建一套新的 OctoWork
+使用者說「幫我建一套 OctoWork」「幫 XX 角色建系統」「開始」時：
 1. 讀取 `core/generator/SKILL.md` 來執行生成流程
 2. 所有生成的檔案放在 `workspace/[使用者指定的名稱]/`
 3. 生成完畢後列出完整檔案清單
@@ -46,7 +46,7 @@ git pull origin main
 ```bash
 ls workspace/
 ```
-找到使用者的 work-os 資料夾。如果有多個，問使用者要更新哪一個。
+找到使用者的 OctoWork 資料夾。如果有多個，問使用者要更新哪一個。
 
 #### Step 5：智慧合併
 讀取 CHANGELOG.md 裡的新增項目，逐一處理：
@@ -76,7 +76,7 @@ ls workspace/
 
 ### 進入工作模式
 使用者說「開工」「進入 XX 的系統」時：
-1. 找到 `workspace/` 裡對應的 work-os 資料夾
+1. 找到 `workspace/` 裡對應的 OctoWork 資料夾
 2. 讀取那個資料夾裡的 CLAUDE.md
 3. 從此按照那個 CLAUDE.md 的指令來做事（不再是生成器角色）
 4. 告訴使用者已經進入工作模式

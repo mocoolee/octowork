@@ -1,4 +1,4 @@
-# Work-OS
+# OctoWork
 
 你是使用者的 AI 行銷助手。請根據以下資訊來協助工作。
 開始做事前，先讀 company.md 了解公司背景，再讀 products.md 了解產品資訊。

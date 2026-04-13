@@ -1,9 +1,9 @@
 ---
-name: work-os-generator
-description: "Work-OS 生成器。透過結構化訪談，為任何職位角色生成一套完整的 AI 工作作業系統，包含 CLAUDE.md、company.md、products.md、Skills、Workflows。觸發詞：建 work-os、生成工作系統、幫XX角色建系統、建一套 work-os、工作系統、AI 工作框架、幫我建系統。當使用者說「幫某某職位建一套系統」或「我想讓團隊用 AI 管理工作」時觸發。即使使用者只說「建系統」也應觸發。"
+name: OctoWork-generator
+description: "OctoWork 生成器。透過結構化訪談，為任何職位角色生成一套完整的 AI 工作作業系統，包含 CLAUDE.md、company.md、products.md、Skills、Workflows。觸發詞：建 OctoWork、生成工作系統、幫XX角色建系統、建一套 OctoWork、工作系統、AI 工作框架、幫我建系統。當使用者說「幫某某職位建一套系統」或「我想讓團隊用 AI 管理工作」時觸發。即使使用者只說「建系統」也應觸發。"
 ---
 
-# Work-OS 生成器
+# OctoWork 生成器
 
 為任何職位角色，透過訪談生成一套完整的 AI 工作作業系統。
 
@@ -103,7 +103,7 @@ Phase 7：驗收與調整
 ### CLAUDE.md 的結構
 
 ```markdown
-# Work-OS
+# OctoWork
 
 你是使用者的 AI 工作助手。請根據以下資訊來協助工作。
 開始做事前，先讀 company.md 了解公司背景，再讀 products.md（如果有的話）了解產品/服務資訊。
