@@ -255,7 +255,7 @@ AI 會列出建議的 Skill 清單，**你選要建哪幾個就好**——不用
 不想被訪談？直接複製一份範例來改：
 
 ```bash
-cp -r examples/store-ops/* workspace/
+cp -r examples/store-ops/. workspace/
 ```
 
 | 範例 | 適合誰 | 內含 |

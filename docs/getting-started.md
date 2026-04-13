@@ -104,7 +104,7 @@ AI 會用聊天的方式問你四輪問題（大概 10 分鐘）：
 直接複製一份範例來改：
 
 ```bash
-cp -r examples/store-ops/* workspace/
+cp -r examples/store-ops/. workspace/
 ```
 
 | 範例 | 適合誰 | 內含 |
