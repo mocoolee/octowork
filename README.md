@@ -13,6 +13,8 @@
   <a href="docs/getting-started.md">完整文件</a>
 </p>
 
+<p align="center">v0.2.0</p>
+
 ---
 
 OctoWork 是一個開源框架，讓任何上班族透過 AI 建構自己的工作作業系統。
