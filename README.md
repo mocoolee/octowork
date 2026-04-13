@@ -10,7 +10,8 @@
   <a href="#安裝">安裝</a> ·
   <a href="#他們怎麼用-octowork">使用故事</a> ·
   <a href="#快速開始">快速開始</a> ·
-  <a href="docs/getting-started.md">完整文件</a>
+  <a href="docs/getting-started.md">完整文件</a> ·
+  <a href="https://discord.gg/V2yvQgKs3F"><img src="https://img.shields.io/badge/Discord-加入社群-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 <p align="center">v0.2.0</p>
