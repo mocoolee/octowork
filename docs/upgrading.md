@@ -47,7 +47,7 @@ git pull origin main
 **用新版生成器重新生成**（會覆蓋）：
 ```bash
 # 先備份
-cp -r workspace/my-OctoWork workspace/my-OctoWork-backup
+cp -r workspace/my-octowork workspace/my-octowork-backup
 
 # 重新生成
 claude
