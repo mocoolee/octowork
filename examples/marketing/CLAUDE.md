@@ -72,7 +72,7 @@
 1. 做事前先讀 company.md 和 products.md
 2. 查 .agents/skills/ 有沒有對應的 Skill，有就用
 3. 我說「啟動 XX 流程」→ 讀 workflows/ 對應的 .md
-4. 所有產出存到 outputs/YYYY-MM/
+4. 工作產出（日報、週報、報價單等）存到 outputs/YYYY-MM/。Skill 相關的檔案（SKILL.md、範例、模板、腳本）存在 .agents/skills/[skill-name]/ 裡，讓每個 Skill 自包含、可分享
 5. 做完後提醒我：有沒有新經驗值得加到「做事原則」
 6. 新增或修改 Skill 時，一律存到本資料夾的 .agents/skills/ 裡，不要存到全域路徑（如 ~/.claude/）
 7. 我說「復盤」→ 讀取所有檔案，找出可以補強的地方，一次問我一個延伸問題，我說「夠了」就結束。復盤結束後更新「上次復盤日期」
