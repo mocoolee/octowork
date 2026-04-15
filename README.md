@@ -14,7 +14,7 @@
   <a href="https://discord.gg/V2yvQgKs3F"><img src="https://img.shields.io/badge/Discord-加入社群-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
-<p align="center">v0.2.0</p>
+<p align="center">v0.3.0</p>
 
 ---
 
